@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Carousel</title>
+    <link rel="stylesheet" href="/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Banco de Imagens</h1>
+        </header>
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="images/001.jpeg" alt="Sabonete laranja numa toalha azul">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/621.jpeg" alt="Detalhes dos canhões de um navio de guerra">
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="images/820.jpeg" alt="Cadeiras com uma parede verde de fundo">
+                </div>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+        <br>
+        <div class="container text-center g-0">
+            <h2>FOTOS</h2>
+            <div class="row">
+                <div class="col-xs-12 col-md-6 col-lg-4 pt-4">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            U.S.S. Missouri
+                        </div>
+                        <img src="images/711.jpeg" alt="USS Missouri">
+                        <div class="card-body">
+                            <h4 class="card-title">USS Missouri ancorado em Pearl Harbour</h4>
+                            <h6>&copy; JCAires</h6>
+                            <p class="card-text">
+                                Licenças com resolução de 480x320px@72dpi a 4242x2828px@300dpi
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar Licença</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 pt-4">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Chairs
+                        </div>
+                        <img src="images/850.jpeg" alt="Poltronas vazias">
+                        <div class="card-body">
+                            <h4 class="card-title">Duas poltronas vazias em tons pastel</h4>
+                            <h6>&copy; JCAires</h6>
+                            <p class="card-text">
+                                Licenças com resolução de 480x320px@72dpi a 4242x2828px@300dpi
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar Licença</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-6 col-lg-4 pt-4">
+                    <div class="card text-bg-dark">
+                        <div class="card-header">
+                            Cruising
+                        </div>
+                        <img src="images/DSCF0227.jpeg" alt="Navio de cruzeiro ancorado">
+                        <div class="card-body">
+                            <h4 class="card-title">Royal Caribbean Enchantment of the Seas</h4>
+                            <h6>&copy; JCAires</h6>
+                            <p class="card-text">
+                                Licenças com resolução de 480x320px@72dpi a 4242x2828px@300dpi
+                            </p>
+                            <a href="#" class="btn btn-primary">Comprar Licença</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="/lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>
